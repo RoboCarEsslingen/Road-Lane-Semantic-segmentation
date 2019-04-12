@@ -2,7 +2,7 @@
 Automatic and accurate detection of road/lane boundaries is very important for autonomous driving vehicles. After applying several heuristic based methods, the next step is to apply machine learning for this task. Semantic segmentation is the task of individually classfying each pixel in the scene to fit into predefined road categories.  
 A common approach to train a fully convolutional network is to leverage an existing classification model. For that purpose we suggest to use the [popular VGG16 classifier](https://neurohive.io/en/popular-networks/vgg16/).  
 We implement the model introduced by [Long et Al](https://arxiv.org/pdf/1605.06211.pdf). I have trained the model on the [Kitti dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php).  
-`semantic_segmentation_fcn8.ipynb` notebook can be used both for training FCN networks and for inference on road images. 
+[semantic_segmentation_fcn8.ipynb](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/semantic_segmentation_fcn8.ipynb) notebook can be used both for training FCN networks and for inference on road images.
 ## Inference
 For inference `h5` model files must be used along with the predictor function provided in `ss_utils.py`:  
 ```python
