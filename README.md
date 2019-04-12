@@ -4,7 +4,7 @@ A common approach to train a fully convolutional network is to leverage an exist
 We implement the model introduced by [Long et Al](https://arxiv.org/pdf/1605.06211.pdf)  
 Below some samples of the predicted results  
 ![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/images/pred1.png)  
-![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/images/pred1.png)  
+![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/images/pred2.png)  
 ## Project setup
 * Google colab 
 ## Prepare data for training
