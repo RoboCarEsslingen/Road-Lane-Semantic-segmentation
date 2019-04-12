@@ -14,8 +14,8 @@ some_image = cv2.imread(image_path, 1)
 bgd_img,segmented_img=ss_utils.fcn_predict(fcn8model,some_image,nClasses,InputHeight,InputWidth)
 ```
 Below some samples of the predicted results  
-![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/tree/master/images/predict1.png)
-![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/tree/master/images/predict2.png)
+![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/images/pred1.png)
+![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/images/pred2.png)
 ## Project setup
 * **Google colab environment**
 Access to a gpu resource is mandatory to train the networks. For that purpose I suggest using [google colab](https://colab.research.google.com/notebooks/welcome.ipynb) which provides a free and high quality development environment for deep learning project. Of course it's possible to use other deep learning platforms but it's not covered for this project.  
