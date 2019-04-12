@@ -3,8 +3,8 @@ Automatic and accurate detection of road/lane boundaries is very important for a
 A common approach to train a fully convolutional network is to leverage an existing classification model. For that purpose we suggest to use the [popular VGG16 classifier](https://neurohive.io/en/popular-networks/vgg16/).  
 We implement the model introduced by [Long et Al](https://arxiv.org/pdf/1605.06211.pdf)  
 Below some samples of the predicted results  
-![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/tree/master/images/predict1.png)
-![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/tree/master/images/predict2.png)
+![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/images/pred1.png)  
+![example1](https://github.com/mmarouen/Road-Lane-Semantic-segmentation/blob/master/images/pred1.png)  
 ## Project setup
 * Google colab 
 ## Prepare data for training
